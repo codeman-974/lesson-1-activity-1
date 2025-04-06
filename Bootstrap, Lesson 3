@@ -43,6 +43,31 @@
             <p>Inline snippets of code should be embedded in the code element:</p>
             <p>The following HTML elements: <code>span</code>, <code>section</code>,and <code>div</code> defines a section in a document</p>
         </div>
-    </body>
-    </html>
+        <h1>Abbreviations</h1>
+        <p>It is used to mark up an abbreviation or acronym:</p>
+        <p><abbr title="codingal">cdgl</abbr></p>was founded in 2020.</p>
+        <h1>Blockquotes</h1>
+        <p>It is used to present content from another source:</p>
+        <blockquote class="blockquote"></blockquote>
+        <p>Codingal is on a missiom to inspire all school kids.</p>
+        <footer class="blockquote-footer">From Codingal</footer>
+    </blockquote>
+
+    <h1>Multiple Code Lines:</h1>
+    <p>To insert multiple code lines, we use the pre element:</p>
+    <pre>
+        Codingal is on
+        a mission 
+        to inspire all 
+        the school 
+        kids.
+    </pre>
+    <h1>Keyboard Inputs</h1>
+    <p>To indicate input that is typically entered via keyboard, use the kbd element:</p>
+    <p> Use <kbd>ctrl+p</kbd>to open the Print dialog box.</p>
+</div>
+</body>
+</html>
+
+
                
