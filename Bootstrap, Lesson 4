@@ -21,5 +21,18 @@
             <p>This part is inside a container class.</p>
             <p>The container class provides a responsive fixed width container.</p>
         </div>
+
+        <title>Fluid container</title>
+
+        <body>
+            <div class="container-fluid bg-success text-white">
+                <h1>My first Bootstrap page</h1>
+                <p>This part is inside a container-fluid class.</p>
+                <div>hi </div>
+                </div>
+                <div class="container-fluid bg-success text-white">
+                    <h1>My first Bootstrap page</h1>
+                    <p>This is some text.</p>
+            </div>
     </body>
     </html>
