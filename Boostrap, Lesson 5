@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <title>Bootstrap Grid System</title>
+    
+        <meta charset="utf-8">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+        </script>
+
+    </head>
+    <body>
+        <div class="container border 5px solid black">
+            <h1>My hobbies</h1>
+            <p>My hobbies are reading story books, coding etc.</p>
+        </div>
+        <div class="container p-3000 mb-300 bg-primary text-white">
+            <h1>My hobbies</h1>
+            <p>My hobbies are reading story books, coding etc. </p>
+        </div>
+        <div class="container p-3 my-3 bg-danger text-white">
+            <h1>What are my hobbies?</h1>
+            <p>I have numerous of them, such as cycling, singing, playing the guitar etc.</p>
+            </div>
+            </body>
+</html>
