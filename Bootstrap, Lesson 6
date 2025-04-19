@@ -19,7 +19,7 @@
                 <div class="ju,botron jumbotron-fluid">
                     <div class="orange">
                         <h1 style="color: orange;">
-                            Codingal
+                           <u>Codingal:</u>
                         </h1>
                                 <p>Codingal will help you fall in love with coding.</p>
                             </div>
@@ -42,6 +42,12 @@
                             <span class="badge badge-info">Info</span>
                             <span class="badge badge-light">Light</span>
                             <span class="badge badge-dark">Dark</span>
+                        </div>
+                        <div class="container">
+                            <p>To add a progress bar, add .progress class to a container element and add the progress bar class to its child element. Use the CSS width property to set the width of the progress bar.</p>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 70%;">70%</div>
+                            </div>
                         </div>
             </body>
 </html>
