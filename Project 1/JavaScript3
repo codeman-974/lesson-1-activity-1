@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome to the world of JavaScript</title>
+</head>
+
+<body>
+    <h2>Welcome to the world of JavaScript</h2>
+
+    <script>
+
+        function sumOfTwoNumbers () {
+            let x, y, z;
+            x = 5;
+            y = 6;
+            z = x + y;
+            return z;
+         }
+        
+         let sum = sumOfTwoNumbers ();
+         document. write('The Sum of x and y is' +sum)
+    </script>
+
+</body>
+
+</html>
