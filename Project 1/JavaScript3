@@ -9,6 +9,7 @@
     <h2>Welcome to the world of JavaScript</h2>
 
     <script>
+        
 
         function sumOfTwoNumbers () {
             let x, y, z;
@@ -19,9 +20,15 @@
          }
         
          let sum = sumOfTwoNumbers ();
-         document. write('The Sum of x and y is' +sum)
+         document. write('The Sum of x and y is' +sum);
+
+    
     </script>
+
+    
 
 </body>
 
 </html>
+
+
