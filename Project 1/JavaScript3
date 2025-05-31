@@ -13,14 +13,14 @@
 
         function sumOfTwoNumbers () {
             let x, y, z;
-            x = 5;
-            y = 6;
+            x = 6;
+            y = 7;
             z = x + y;
             return z;
          }
         
          let sum = sumOfTwoNumbers ();
-         document. write('The Sum of x and y is' +sum);
+         document. write('The sum of x and y is' +sum);
 
     
     </script>
