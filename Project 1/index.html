@@ -1,4 +1,62 @@
+<!DOCTYPE html>
 <html>
-    <title> My first after class project</title>
-    <body> This is my first after class project.</body>
-</html>
+    <head>
+        <title>Landing page</title>
+    </head>
+    <style>
+        body {
+            text-align: center;
+            }
+        nav {
+            background-color: #e6e6e6;
+            padding: 10px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+        }
+
+        li a:hover {
+            background-color: rgb(219, 130, 130);
+        }
+        </style>
+        <body>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <h2>Interesting information</h2>
+            <img src="tiger.jpg" />
+            <br />
+            <button onclick="tiger()">Read more!</button>
+            <p id="tiger-info"></p>
+            <img src="Lion.jpg" />
+            <br />
+            <button onclick="lion()">Read more!</button>
+            <p id="lion-info"></p>
+            <script>
+                function tiger() {
+                    document.getElementById("tiger-info").innerHTML=
+                    "The tiger(Panthera tigris) is a large cat and a member of the genus Panthera native to Asia.It has a powerful, muscular body with a large head and paws.";
+                  
+                }
+                function lion() {
+                        document.getElementById("lion-info").innerHTML =
+                        "The lion(Panthera leo) is a large cat of the genus Panthera, native to Sub - Saharan Africa and India.It has a muscular, broad - chested body; a short, rounded head; round ears; and a dark, hairy tuft at the tip of its tail.";
+
+                    }
+                    </script>
+                    </body>
+                    </html>
